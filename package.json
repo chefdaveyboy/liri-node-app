@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/chefdaveyboy/liri-node-app/issues"
   },
-  "homepage": "https://github.com/chefdaveyboy/liri-node-app#readme"
+  "homepage": "https://github.com/chefdaveyboy/liri-node-app#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "moment": "^2.24.0"
+  }
 }
