@@ -11,16 +11,7 @@ Using the movie-this command followed by a movie name, you'll be able to see rel
 
 Using the do-what-it-says command, you'll be able to run a pre-built command in the random.txt file.
 
-In order to run LIRI you'll need to have the following NPM dependancies installed: 
-
-    "axios": "^0.19.2",
-    "dotenv": "^8.2.0",
-    "fs": "0.0.1-security",
-    "moment": "^2.24.0",
-    "node-spotify-api": "^1.1.1"
-
-
-
+--------
 
 CONCERT-THIS: 
 
@@ -38,8 +29,15 @@ DO-WHAT-IT-SAYS:
 
 ![](images/do-what-it-says-gif.gif)
 
+-------
 
+In order to run LIRI you'll need to have the following NPM dependancies installed: 
 
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "moment": "^2.24.0",
+    "node-spotify-api": "^1.1.1"
 
 
 
