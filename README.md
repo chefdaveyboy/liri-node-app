@@ -24,19 +24,19 @@ In order to run LIRI you'll need to have the following NPM dependancies installe
 
 CONCERT-THIS: 
 
-! [] (images/concert-this-gif.gif)
+![](images/concert-this-gif.gif)
 
 SPOTIFY-THIS-SONG: 
 
-! [] (images/spotify-this-gif.gif)
+![](images/spotify-this-gif.gif)
 
 MOVIE-THIS: 
 
-! [] (images/movie-this-gif.gif)
+![](images/movie-this-gif.gif)
 
 DO-WHAT-IT-SAYS: 
 
-! [] (images/do-what-it-says-gif.gif)
+![](images/do-what-it-says-gif.gif)
 
 
 
