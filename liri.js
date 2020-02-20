@@ -22,17 +22,17 @@ for (var i = 3; i < nodeArgs.length; i++) {
 function commandCheck() {
 
     if (userCommand === "concert-this") {
-        console.log(userInput);
+        
         concertInfo();
     }
 
     else if (userCommand === "spotify-this-song") {
-        console.log(userInput);
+        
         spotifyInfo();
     }
 
     else if (userCommand === "movie-this") {
-        console.log(userInput);
+        
         movieInfo();
     }
 
@@ -152,7 +152,7 @@ function movieInfo() {
             console.log("");
             console.log("IMDB Rating: " + response.data.Ratings[0].Value);
             console.log("");
-            console.log("Rotten Tomatoes Rating: " + response.data.Ratings[1].Value);
+            console.log("Rotten Tomatoes Rating: " + response.data.Ratings[response.data.Ratings.findIndex(index=>index.Source === "Rotten Tomatoes")].Value);
             console.log("");
             console.log("Country: " + response.data.Country);
             console.log("");
@@ -193,11 +193,11 @@ function randomizer() {
             return console.log(error);
         }
 
-        console.log(data);
+        
 
         var randomArray = data.split(",");
 
-        console.log(randomArray);
+        
         //unable to get it to read random.txt unless formatted perfectly(without spaces between the command and userInput).
         for (i = 0; i < randomArray.length; i++) {
             userCommand = randomArray[0];
